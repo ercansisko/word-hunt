@@ -1,0 +1,99 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  margin: 0;
+  background-color: rgb(38, 109, 109);
+}
+.App {
+  display: flex;
+  justify-content: space-between;
+}
+.knowns {
+  width: 25%;
+  background-color: rgb(8, 63, 63);
+  min-height: 100vh;
+  color: white;
+  border-right: 1px solid black;
+  box-shadow: 5px 5px 10px rgb(26, 26, 12);
+  z-index: 1;
+}
+.body {
+  background-color: rgb(18, 139, 139);
+  width: 50%;
+  border: 1px solid inherit;
+  border-radius: 5px;
+  position: fixed;
+  top: 0;
+  left: 25%;
+  height: 100%;
+}
+.unknowns {
+  width: 25%;
+  background-color: rgb(8, 63, 63);
+  min-height: 100vh;
+  color: white;
+  border-left: 1px solid black;
+  box-shadow: -2px 2px 3px rgb(26, 26, 12);
+}
+
+.english {
+  height: 24px;
+  min-width: 100px !important;
+  visibility: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: rgb(8, 63, 63);
+}
+.turkish {
+  height: 24px;
+  min-width: 100px;
+  margin-top: 150px;
+  margin-bottom: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: rgb(8, 63, 63);
+}
+
+.form {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  width: 80%;
+  margin-right: 5px;
+  outline: none;
+}
+
+.answer-click {
+  width: 90px;
+  width: 20%;
+}
+.know-buttons {
+  width: 60%;
+  margin: 10px auto 0;
+  display: flex;
+  justify-content: center;
+}
+button,
+input {
+  background-color: rgb(8, 63, 63);
+  border-style: none;
+  border: 2.3px solid black;
+  border-radius: 5px;
+}
+.delete {
+  margin-right: 5px;
+}
